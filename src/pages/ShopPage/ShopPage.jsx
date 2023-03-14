@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./ShopPage.module.css";
-import strelka from "../../assets/shopPageStrelka.svg";
 import Pagination from "../../components/Pagination/Pagination";
 
 const ShopPage = () => {
@@ -34,7 +33,6 @@ const ShopPage = () => {
       <div className={styles.items}>
         <div className={styles.item}>
           <div className={styles.item_img}>
-            <img src={strelka} alt="" className={styles.hoverStrelka} />
             <img src="" alt="" />
           </div>
           <div className={styles.item_name}>Футболка USA</div>
@@ -45,7 +43,6 @@ const ShopPage = () => {
         </div>
         <div className={styles.item}>
           <div className={styles.item_img}>
-            <img src={strelka} alt="" className={styles.hoverStrelka} />
             <img src="" alt="" />
           </div>
           <div className={styles.item_name}>Купальник Glow</div>
@@ -55,7 +52,6 @@ const ShopPage = () => {
         </div>
         <div className={styles.item}>
           <div className={styles.item_img}>
-            <img src={strelka} alt="" className={styles.hoverStrelka} />
             <img src="" alt="" />
           </div>
           <div className={styles.item_name}>Свитшот Sweet Shot</div>
@@ -65,7 +61,6 @@ const ShopPage = () => {
         </div>
         <div className={styles.item}>
           <div className={styles.item_img}>
-            <img src={strelka} alt="" className={styles.hoverStrelka} />
             <img src="" alt="" />
           </div>
           <div className={styles.item_name}>Футболка USA</div>
@@ -76,7 +71,6 @@ const ShopPage = () => {
         </div>
         <div className={styles.item}>
           <div className={styles.item_img}>
-            <img src={strelka} alt="" className={styles.hoverStrelka} />
             <img src="" alt="" />
           </div>
           <div className={styles.item_name}>Купальник Glow</div>
@@ -86,7 +80,6 @@ const ShopPage = () => {
         </div>
         <div className={styles.item}>
           <div className={styles.item_img}>
-            <img src={strelka} alt="" className={styles.hoverStrelka} />
             <img src="" alt="" />
           </div>
           <div className={styles.item_name}>Свитшот Sweet Shot</div>
@@ -96,7 +89,6 @@ const ShopPage = () => {
         </div>
         <div className={styles.item}>
           <div className={styles.item_img}>
-            <img src={strelka} alt="" className={styles.hoverStrelka} />
             <img src="" alt="" />
           </div>
           <div className={styles.item_name}>Футболка USA</div>
@@ -107,7 +99,6 @@ const ShopPage = () => {
         </div>
         <div className={styles.item}>
           <div className={styles.item_img}>
-            <img src={strelka} alt="" className={styles.hoverStrelka} />
             <img src="" alt="" />
           </div>
           <div className={styles.item_name}>Купальник Glow</div>
@@ -117,7 +108,6 @@ const ShopPage = () => {
         </div>
         <div className={styles.item}>
           <div className={styles.item_img}>
-            <img src={strelka} alt="" className={styles.hoverStrelka} />
             <img src="" alt="" />
           </div>
           <div className={styles.item_name}>Свитшот Sweet Shot</div>
@@ -127,7 +117,6 @@ const ShopPage = () => {
         </div>
         <div className={styles.item}>
           <div className={styles.item_img}>
-            <img src={strelka} alt="" className={styles.hoverStrelka} />
             <img src="" alt="" />
           </div>
           <div className={styles.item_name}>Футболка USA</div>
@@ -138,7 +127,6 @@ const ShopPage = () => {
         </div>
         <div className={styles.item}>
           <div className={styles.item_img}>
-            <img src={strelka} alt="" className={styles.hoverStrelka} />
             <img src="" alt="" />
           </div>
           <div className={styles.item_name}>Купальник Glow</div>
@@ -148,7 +136,6 @@ const ShopPage = () => {
         </div>
         <div className={styles.item}>
           <div className={styles.item_img}>
-            <img src={strelka} alt="" className={styles.hoverStrelka} />
             <img src="" alt="" />
           </div>
           <div className={styles.item_name}>Свитшот Sweet Shot</div>
