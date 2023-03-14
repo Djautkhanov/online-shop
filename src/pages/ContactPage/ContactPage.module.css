@@ -1,0 +1,150 @@
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Raleway";
+}
+.wrapper {
+  width: 1110px;
+}
+.titleBlock {
+  margin-top: 190px;
+}
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.selected_link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #919191;
+}
+.link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #000000;
+}
+.links {
+  margin-top: 26px;
+}
+.map {
+  border: 0;
+  margin-top: 214px;
+}
+.contacts {
+  display: flex;
+  margin-top: 130px;
+}
+.contactBlock {
+  margin-right: 111px;
+}
+.description {
+  margin-bottom: 19px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.info {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.feedback {
+  margin-top: 130px;
+  
+}
+.feedback_title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.feedback_form_input {
+  width: 350px;
+  height: 40px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #868686;
+  border: none;
+  border-bottom: 1px solid;
+}
+.feedback_form {
+  display: flex;
+  flex-direction: column;
+}
+.feedback_form_message_input {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 110px;
+  width: 443px;
+  height: 134px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.feedback_form_button {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 22px 50px;
+  gap: 10px;
+  width: 189px;
+  height: 68px;
+  background: #6e9c9f;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 138.9%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.feedback_message_block {
+  width: 437px;
+  height: 84px;
+  background: #f1eadc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 62px;
+}
+.feedback_message {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
