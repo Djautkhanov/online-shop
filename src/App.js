@@ -1,20 +1,17 @@
-import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import Home from './pages/Home/Home';
+import { Footer } from "react-bootstrap/lib/Modal";
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import Cart from "./pages/Cart/Cart";
 
 function App() {
   return (
-     <div className='App'>
-      <Header/>
+    <div className='App'>
       <Routes>
-        <Route path={'/'} element={<Home/>}/>
+        <Route path='/cart' element={<Cart />} />
       </Routes>
-       <Footer/> 
-     </div>
-       
+      <Footer />
+    </div>
   );
 }
 
-export default App;  
+export default App;
