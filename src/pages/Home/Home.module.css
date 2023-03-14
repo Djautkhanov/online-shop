@@ -6,6 +6,8 @@
   display: flex;
   width: 1370px;
   height: 826px;
+  position: relative;
+
 }
 .topTextTitle {
   width: 585px;
@@ -63,7 +65,7 @@
   height: 408ox;
 }
 .topText {
-    width: 50%;
+    width: 650px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -71,8 +73,8 @@
 }
 .topImg1 {
   position: absolute;
-  top: 87%;
-  left: 50%;
+  top: 61.5%;
+  left: 45%;
   width: 190px;
   height: 318px;
 }
@@ -83,12 +85,12 @@
 }
 .topImg3 {
   position: absolute;
-  top: 42%;
-  left: 85%;
+  top: 30%;
+  left: 78%;
   width: 197px;
 }
 .topImage {
-  width: 50%;
+  width: 705px;
   height: 100%;
   background: #f1eadc;
 }
