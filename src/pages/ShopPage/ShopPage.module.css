@@ -65,11 +65,6 @@
   position: relative;
 }
 
-.hoverStrelka {
-  position: absolute;
-  display: none;
-}
-
 .item_img {
   width: 350px;
   height: 478px;
@@ -80,14 +75,7 @@
 .item_img:hover {
   background: rgba(110, 156, 159, 0.64);
   transition: 0.5s ease;
-}
-
-.item_img:hover .hoverStrelka{
-  display: block;
   cursor: pointer;
-  transition: 0.5s ease;
-  top: 228px;
-  left: 159px;
 }
 
 .item_name {
