@@ -5,16 +5,17 @@ import Header from "./components/Header/Header";
 import Cart from "./pages/Cart/Cart";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import Home from "./pages/Home/Home";
+import ShopPage from "./pages/ShopPage/ShopPage";
 
 function App() {
   return (
     <div className='App'>
       <Header/>
-
       <Routes>
         <Route path='/cart' element={<Cart />} />
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/' element={<Home />} />
+        <Route path='/shop' element={<ShopPage />} />
       </Routes>
       <Footer/>
     </div>
