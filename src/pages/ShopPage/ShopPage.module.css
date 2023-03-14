@@ -1,0 +1,109 @@
+.ShopPage {
+  margin-top: 200px;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  font-size: 17px;
+}
+
+.bText {
+  font-size: 55px;
+  line-height: 110%;
+  margin-bottom: 26px;
+}
+
+.linkToThisPage {
+  margin-bottom: 214px;
+}
+
+.opacityText {
+  opacity: 0.6;
+}
+
+.defis {
+  margin: 0 10px;
+}
+
+.categories_row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 92px;
+}
+
+.category button {
+  padding: 19px 65px;
+  background-color: transparent;
+  border: 1px solid #000000;
+}
+
+.category:hover button {
+  color: #ffffff;
+  background-color: #000000;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#activeCategory button {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.countOfVisibleItems {
+  color: #808080;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1110px;
+  gap: 30px;
+  row-gap: 65px;
+  margin: 65px 0;
+}
+
+.item {
+  position: relative;
+}
+
+.hoverStrelka {
+  position: absolute;
+  display: none;
+}
+
+.item_img {
+  width: 350px;
+  height: 478px;
+  background-color: gray;
+  margin-bottom: 24px;
+}
+
+.item_img:hover {
+  background: rgba(110, 156, 159, 0.64);
+  transition: 0.5s ease;
+}
+
+.item_img:hover .hoverStrelka{
+  display: block;
+  cursor: pointer;
+  transition: 0.5s ease;
+  top: 228px;
+  left: 159px;
+}
+
+.item_name {
+  font-size: 20px;
+  margin-bottom: 7px;
+  text-align: center;
+}
+
+.item_priceRow {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: #9c9c9c;
+  gap: 10px;
+}
+
+.priceRow_oldPrice {
+  text-decoration-line: line-through;
+}

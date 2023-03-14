@@ -1,0 +1,67 @@
+.pagination {
+  display: flex;
+  max-width: 1110px;
+  justify-content: center;
+  margin-top: 65px;
+  padding: 0;
+  gap: 15px;
+}
+li {
+  border: 1px solid #000000;
+  list-style: none;
+}
+li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  width: 40px;
+  height: 40px;
+}
+
+:global li.selected {
+  background-color: #000000;
+}
+
+:global li.selected a {
+  color: #ffffff;
+}
+
+li:hover {
+  transition: 0.5s ease;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+li:hover a {
+  color: white;
+}
+
+:global .previous {
+  border: none;
+  background-color: transparent;
+}
+
+
+:global .previous:hover {
+  border: none;
+  background-color: transparent;
+}
+
+:global .previous:hover a {
+  color: black;
+}
+
+:global .next {
+  border: none;
+  background-color: transparent;
+}
+
+:global .next:hover {
+  border: none;
+  background-color: transparent;
+}
+
+:global .next:hover a {
+  color: black;
+}
