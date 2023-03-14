@@ -8,10 +8,10 @@ const Header = () => {
     return (
         <div className={styles.header}>
             <div className={styles.headerLogo}>
-                <img src={vector1} alt="vector" />
+                <img src={vector1} alt="vector" />  
                 <a href="#">Womazing</a> 
             </div>
-            <div className={styles.headerLick}>
+            <div className={styles.headerLick}>  
                 <a href="#">Главная</a>
                 <a href="#">Магазин</a>
                 <a href="#">О бренде</a>
