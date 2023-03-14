@@ -1,11 +1,13 @@
-import './App.css';
-import Header from './components/Header/Header';
+import "./App.css";
+import Header from "./components/Header/Header";
+import ContactPage from "./pages/ContactPage/ContactPage";
 
 function App() {
   return (
-<>
-<Header/>
-</>
+    <>
+      <Header />
+      <ContactPage />
+    </>
   );
 }
 
