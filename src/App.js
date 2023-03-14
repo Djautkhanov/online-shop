@@ -1,14 +1,18 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 import Cart from './pages/Cart/Cart';
 
 function App() {
   return (
-<>
-<Header/>
-<Cart/>
-</>
+     <div className='App'>
+      <Routes>
+        <Route  path="/cart" element={<Cart />}/>
+      </Routes>
+       <Footer/> 
+     </div>
+       
   );
 }
 
-export default App;
+export default App;  
