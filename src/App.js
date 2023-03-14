@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Cart from "./pages/Cart/Cart";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import Home from "./pages/Home/Home";
+import Success from "./pages/Success/Success";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/cart' element={<Cart />} />
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/' element={<Home />} />
+        <Route path='/success' element={<Success/>}/>
       </Routes>
       <Footer/>
     </div>
