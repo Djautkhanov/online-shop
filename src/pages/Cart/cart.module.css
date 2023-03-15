@@ -78,6 +78,9 @@
 }
 
 .btnOrder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 68px;
   width: 248px;
   border: 1px solid #6E9C9F;

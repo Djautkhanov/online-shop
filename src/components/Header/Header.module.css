@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
 }
-.headerLick a {
+.nav_link {
   text-decoration: none;
   margin-left: 45px;
   width: 59px;
@@ -42,7 +42,8 @@
 .headersContact {
   display: flex;
   justify-content: space-between;
-  width: 260px;
+  align-items: center;
+  width: 370px;
   height: 21px;
   font-family: "Raleway";
   font-style: normal;
@@ -54,4 +55,30 @@
 }
 .headerBasket{
     margin-left: 67px;
+}
+.active{
+  text-decoration: none;
+  margin-left: 45px;
+  width: 59px;
+  height: 21px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #6e9c9f;
+
+}
+.auth{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  width: 90px;
+  height: 35px;
+  border: 1px solid #6E9C9F;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #6E9C9F ;
 }
