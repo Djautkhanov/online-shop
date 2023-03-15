@@ -1,8 +1,11 @@
 .footer {
   background: #f1eadc;
   padding: 104px 0 101px 0;
-  width: 1600px;
   margin-top: 130px;
+}
+.footer_wrapper{
+  max-width: 1110px;
+  margin: 0 auto;
 }
 
 .footerFirst {
@@ -47,7 +50,6 @@
 .footersContact {
   display: flex;
   justify-content: space-between;
-  width: 260px;
   height: 21px;
   font-family: "Raleway";
   font-style: normal;
@@ -80,6 +82,7 @@
 
 .footerBlock {
   display: flex;
+  justify-content: space-between;
 }
 
 .footerContact a {

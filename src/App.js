@@ -16,6 +16,7 @@ function App() {
   return (
     <div className='App'>
       <Header/>
+      <div className="App_wrapper">
       <Routes>
         <Route path='/cart' element={<Cart />} />
         <Route path='/contact' element={<ContactPage />} />
@@ -27,6 +28,7 @@ function App() {
         <Route path='/checkout' element={<Checkout />} />
         <Route path='login' element={<Login />} />
       </Routes>
+      </div>
       <Footer/>
     </div>
   );
