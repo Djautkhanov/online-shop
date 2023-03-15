@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import { Routes } from 'react-router-dom';
-import './App.css';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import Checkout from './pages/СheckoutPage';
-
-function App() {
-  return (
-     <div className='App'>
-       <Header/>
-       <Checkout/>
-=======
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
@@ -23,12 +10,12 @@ import ShopPage from "./pages/ShopPage/ShopPage";
 import OnePage from "./pages/OnePage/OnePage";
 import { Register } from './pages/Register/Register'
 import { Login } from './pages/Login/Login'
+import Checkout from "./pages/CheckoutPage/СheckoutPage";
 
 function App() {
   return (
     <div className='App'>
       <Header/>
->>>>>>> master
       <Routes>
         <Route path='/cart' element={<Cart />} />
         <Route path='/contact' element={<ContactPage />} />
@@ -37,17 +24,11 @@ function App() {
         <Route path='/shop' element={<ShopPage />} />
         <Route path='/el' element={<OnePage />} />
         <Route path='register' element={<Register />} />
+        <Route path='/checkout' element={<Checkout />} />
         <Route path='login' element={<Login />} />
       </Routes>
-<<<<<<< HEAD
-       <Footer/> 
-
-     </div>
-       
-=======
       <Footer/>
     </div>
->>>>>>> master
   );
 }
 
