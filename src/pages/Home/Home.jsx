@@ -8,6 +8,7 @@ import quality1 from "..//..//assets/quality1.png";
 import quality2 from "..//..//assets/quality2.png";
 import quality3 from "..//..//assets/quality3.png";
 import imgTeam from "..//..//assets/fotksh.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -22,10 +23,10 @@ const Home = () => {
             этом сезоне. Время исследовать.
           </div>
           <div className={styles.topButton}>
-            <button className={styles.topButton1}>
+            <Link className={styles.topButton1} to={'/shop'}>
               <img src={arrowDown} alt="arrow" />
-            </button>
-            <button className={styles.topButton2}>Открыть магазин</button>
+            </Link>
+            <Link className={styles.topButton2} to={'/shop'}>Открыть магазин</Link>
           </div>
         </div>
         <div className={styles.topImage}>

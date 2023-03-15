@@ -39,6 +39,9 @@
   margin-left: 75px;
 }
 .topButton2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 243px;
   height: 68px;
   background: #6e9c9f;
@@ -59,6 +62,9 @@
   background: rgba(110, 156, 159, 0.1);
   border: none;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .homeBlockQuality {
   width: 1110px;
