@@ -5,20 +5,21 @@ import logoInstagram from "../../assets/logoInstagram.png";
 import logoFacebook from "../../assets/logoFacebook.png";
 import logoTwitter from "../../assets/logoTwitter.png";
 import logovisa from "../../assets/logovisa-mastercard.png";  
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.footerFirst}>
-        <div className={styles.footerLogo}>
+        <div className={styles.footerLogo}>  
           <img src={vector1} alt="vector" />
           <a href="#">Womazing</a>
         </div>
-        <div className={styles.footerLick}>
-          <a href="#">Главная</a>
-          <a href="#">Магазин</a>
-          <a href="#">О бренде</a>
-          <a href="#">Контакты</a>
+        <div className={styles.footerLick}>   
+          <NavLink className={({isActive})=>(isActive ? styles.link_active  : 'link')}  to="/">Главная</NavLink>  
+          <NavLink className={({isActive}) =>(isActive ? styles.link_active : styles.link)}  to="/shop">Магазин</NavLink>  
+          <NavLink to="/">О бренде</NavLink>
+          <NavLink className={({isActive})=>(isActive ? styles.link_active  : 'link')} to="/contact">Контакты</NavLink>  
         </div>
         <div className={styles.footersContact}>
           <div className={styles.footerNumber}>+7 (495) 823-54-12</div>  

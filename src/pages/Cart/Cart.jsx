@@ -9,7 +9,7 @@ const Cart = () => {
         <div className={styles.titleP}>
           <p>Главная </p>
           <p> — </p>
-          <p className={styles.fontP}> Корзина</p>
+          <p className={styles.fontP}> Корзина</p>  
         </div>
       </div>
       <table>
