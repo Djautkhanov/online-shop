@@ -10,6 +10,7 @@ import ShopPage from "./pages/ShopPage/ShopPage";
 import OnePage from "./pages/OnePage/OnePage";
 import { Register } from './pages/Register/Register'
 import { Login } from './pages/Login/Login'
+import Checkout from "./pages/CheckoutPage/СheckoutPage";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='/shop' element={<ShopPage />} />
         <Route path='/el' element={<OnePage />} />
         <Route path='register' element={<Register />} />
+        <Route path='/checkout' element={<Checkout />} />
         <Route path='login' element={<Login />} />
       </Routes>
       <Footer/>
