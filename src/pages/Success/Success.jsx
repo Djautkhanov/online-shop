@@ -8,7 +8,7 @@ const Success = () => {
     <div className={styles.block1}>
         <div className={styles.text1}>Заказ получен</div>
         <div className={styles.pages}>
-        <div className={styles.pagesTetxt}>Главная - Оформление заказа -</div>
+        <div className={styles.pagesTetxt}>Главная - Оформление заказа -</div>  
         <div className={styles.pagesTetxt1}>Заказ получен</div>
         </div>
     </div>
@@ -17,7 +17,7 @@ const Success = () => {
             <img src={fileCheck} alt="" className={styles.check}/>
             <div className={styles.checkText}>
                 <div className={styles.chtext1}>Заказ успешно оформлен</div>
-                <div className={styles.chtext2}>Мы свяжемся с вами в ближайшее время!</div>
+                <div className={styles.chtext2}>Мы свяжемся с вами в ближайшее время!</div> 
             </div>
         </div>
         <button className={styles.doneBtn}>Перейти на главную</button>

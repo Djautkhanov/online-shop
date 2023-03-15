@@ -9,7 +9,7 @@ const Pagination = () => {
     <ReactPaginate
       className={styles.pagination}
       nextLabel={<img width={30} height={30} src={rightArrow} />}
-      previousLabel={<img width={30} height={30} src={leftArrow} />}
+      previousLabel={<img width={30} height={30} src={leftArrow} />}  
       pageCount={2}
     />
   );
