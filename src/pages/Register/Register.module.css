@@ -1,0 +1,67 @@
+form {
+  width: 25rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+  height: 15rem;
+}
+
+label {
+  font-size: small;
+  opacity: 0.5;
+}
+
+input {
+  margin: 1rem 0;
+  color: black;
+  width: 100%;
+  border-radius: 0.5rem;
+  background: rgb(235, 229, 229);
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-width: 1px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  height: 25px;
+}
+
+
+input::placeholder {
+  color: #3c3f43;
+}
+
+.divBtns {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 2rem;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(223, 221, 221);
+  /* color: white; */
+  border-radius: 0.125rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  outline: 2px ridge rgba(203, 149, 226, 0.6);
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: white; */
+}
+
+.link:hover {
+  border-bottom: 2px solid #2d2c2c;
+  opacity: 0.5;
+}

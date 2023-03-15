@@ -1,0 +1,87 @@
+.mainBlock {
+  width: 1110px;
+  margin-top: 195px;
+}
+.block1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 115px;
+}
+.text1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.pages {
+  display: flex;
+}
+.pagesTetxt {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.pagesTetxt1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #919191;
+  margin-left: 5px;
+}
+.chtext1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.chtext2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.done {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 215px;
+}
+.check {
+  display: flex;
+  height: 92px;
+}
+.checkText{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin-left: 32px;
+}
+.doneBtn{
+    width: 272px;
+height: 68px;
+border: 1px solid #6E9C9F;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 138.9%;
+text-align: center;
+letter-spacing: 0.02em;
+color: #6E9C9F;
+cursor: pointer;
+}
