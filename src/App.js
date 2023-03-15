@@ -8,6 +8,8 @@ import Home from "./pages/Home/Home";
 import Success from "./pages/Success/Success";
 import ShopPage from "./pages/ShopPage/ShopPage";
 import OnePage from "./pages/OnePage/OnePage";
+import { Register } from './pages/Register/Register'
+import { Login } from './pages/Login/Login'
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path='/success' element={<Success/>}/>
         <Route path='/shop' element={<ShopPage />} />
         <Route path='/el' element={<OnePage />} />
+        <Route path='register' element={<Register />} />
+        <Route path='login' element={<Login />} />
       </Routes>
       <Footer/>
     </div>
