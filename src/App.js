@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+import { Routes } from 'react-router-dom';
+import './App.css';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Checkout from './pages/СheckoutPage';
+
+function App() {
+  return (
+     <div className='App'>
+       <Header/>
+       <Checkout/>
+=======
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
@@ -15,6 +28,7 @@ function App() {
   return (
     <div className='App'>
       <Header/>
+>>>>>>> master
       <Routes>
         <Route path='/cart' element={<Cart />} />
         <Route path='/contact' element={<ContactPage />} />
@@ -25,8 +39,15 @@ function App() {
         <Route path='register' element={<Register />} />
         <Route path='login' element={<Login />} />
       </Routes>
+<<<<<<< HEAD
+       <Footer/> 
+
+     </div>
+       
+=======
       <Footer/>
     </div>
+>>>>>>> master
   );
 }
 
