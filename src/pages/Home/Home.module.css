@@ -1,6 +1,7 @@
 .home {
   margin-top: -7px;
 }
+
 .homeBlockTop {
   margin: auto;
   display: flex;
@@ -9,6 +10,7 @@
   position: relative;
 
 }
+
 .topTextTitle {
   width: 585px;
   height: 122px;
@@ -20,6 +22,7 @@
   letter-spacing: 0.02em;
   color: #000000;
 }
+
 .topTextContent {
   margin-top: 45px;
   width: 385px;
@@ -33,12 +36,17 @@
   letter-spacing: 0.02em;
   color: #000000;
 }
+
 .topButton {
   display: flex;
   margin-top: 52px;
   margin-left: 75px;
 }
+
 .topButton2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 243px;
   height: 68px;
   background: #6e9c9f;
@@ -53,52 +61,69 @@
   border: none;
   cursor: pointer;
 }
+
 .topButton1 {
   width: 67px;
   height: 67px;
   background: rgba(110, 156, 159, 0.1);
   border: none;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .homeBlockQuality {
   width: 1110px;
   height: 408ox;
 }
+
 .topText {
-    width: 650px;
+  width: 650px;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
+.topImage {
+  position: relative;
+  z-index: -1;
+  width: 700px;
+  height: 100%;
+  top: -20px;
+  background: #f1eadc;
+}
+
 .topImg1 {
   position: absolute;
+  left: -30px;
   top: 61.5%;
-  left: 45%;
   width: 190px;
   height: 318px;
 }
+
 .topImg2 {
+  position: absolute;
+  z-index: -1000;
   width: 434px;
   margin: 120px 0 0 50px;
   height: 652px;
 }
+
 .topImg3 {
   position: absolute;
   top: 30%;
-  left: 78%;
+  left: 350px;
   width: 197px;
 }
-.topImage {
-  width: 705px;
-  height: 100%;
-  background: #f1eadc;
-}
+
 .homeBlockCollection {
   width: 1110px;
   height: 827px;
   margin-top: 130px;
 }
+
 .collectionTitlle {
   margin-bottom: 90px;
   width: 343px;
@@ -111,8 +136,9 @@
   letter-spacing: 0.02em;
   color: #000000;
 }
+
 .collectionName {
-    width: 145px;
+  width: 145px;
   height: 28px;
   font-family: "Raleway";
   font-style: normal;
@@ -122,6 +148,7 @@
   letter-spacing: 0.02em;
   color: #000000;
 }
+
 .collectionPrice {
   width: 34px;
   height: 21px;
@@ -133,6 +160,7 @@
   letter-spacing: 0.02em;
   color: #998e78;
 }
+
 .collectionBtn {
   margin: 65px 0 0 430px;
   width: 243px;
@@ -148,21 +176,25 @@
   color: #6e9c9f;
   cursor: pointer;
 }
+
 .collectionImage {
   width: 350px;
   height: 478px;
   background-color: gray;
   margin-bottom: 24px;
 }
+
 .collectionBlock {
   display: flex;
   justify-content: space-between;
 }
+
 .collectionItem {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
+
 .qualiteTitle {
   margin-top: 130px;
   width: 372px;
@@ -175,22 +207,26 @@
   letter-spacing: 0.02em;
   color: #000000;
 }
+
 .qualite {
   margin-top: 92px;
   display: flex;
   justify-content: space-between;
 }
+
 .qualiteBlock {
-    display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   width: 350px;
   height: 272px;
 }
+
 .qualiteImage {
   width: 61px;
   height: 61px;
 }
+
 .qualiteBlockTitle {
   width: 117px;
   height: 35px;
@@ -202,6 +238,7 @@
   letter-spacing: 0.02em;
   color: #000000;
 }
+
 .qualiteBlockText {
   width: 305px;
   height: 115px;
@@ -213,15 +250,18 @@
   letter-spacing: 0.02em;
   color: #000000;
 }
+
 .teamBlokc {
-    display: flex;
+  display: flex;
   width: 1110px;
   height: 487px;
 }
+
 .teamImage {
   width: 729px;
   height: 487px;
 }
+
 .teamTitle {
   width: 525px;
   height: 44px;
@@ -234,8 +274,9 @@
   color: #000000;
   margin-bottom: 92px;
 }
+
 .teamContentText {
-    width: 255px;
+  width: 255px;
   height: 216px;
   font-family: "Raleway";
   font-style: normal;
@@ -245,6 +286,7 @@
   letter-spacing: 0.02em;
   color: #000000;
 }
+
 .teamContentTitle {
   width: 150px;
   height: 35px;
@@ -256,9 +298,11 @@
   letter-spacing: 0.02em;
   color: #000000;
 }
-.teamContent{
-    margin: 78px 0 78px 124px;
+
+.teamContent {
+  margin: 78px 0 78px 124px;
 }
+
 .homeBlockTeam {
   margin-top: 130px;
 }
