@@ -1,0 +1,138 @@
+.checkout {
+  display: flex;
+  flex-direction: column;
+  padding: 194px 292px;
+}
+
+.block {
+  display: flex;
+  gap: 313px;
+  margin-top: 47px;
+}
+
+.cart {
+  display: flex;
+}
+
+.header {
+  margin-top: 26px;
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 110%;
+  font-weight: lighter;
+}
+
+.adress{
+    margin-bottom: 47px;
+}
+
+.buyer{
+    margin-bottom: 47px;  
+}
+
+.inputs {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  outline: none;
+}
+
+.user {
+  margin-top: 214px;
+}
+
+.inputs input {
+  border: none;
+  border-bottom: 100px;
+  padding: 35px;
+  border-bottom: 1px solid #000000;
+  width: 350px;
+
+  outline: none;
+}
+
+
+.inputAddres {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-top: 81px;
+}
+
+.inputAddres p {
+  margin-top: 47px;
+}
+
+.inputAddres input {
+  border: none;
+  padding: 35px;
+  border-bottom: 1px solid black;
+  outline: none;
+  width: 350px;
+}
+
+.productBlock {
+  margin-top: 215px;
+}
+
+.productBlock p {
+    margin-bottom: 47px;
+}
+
+button {
+  width: 246px;
+  background: #6e9c9f;
+  color: white;
+  border: none;
+  height: 58px;
+  margin-top: 47px;
+}
+
+.payment {
+  margin-top: 245px;
+  font-size: 17px;
+}
+
+.paragraf{
+    background-color:  #F1EADC;
+    width: 280px;
+    height: 47px;
+    padding-top: 12px;
+    
+}
+
+.paragraf2{
+    background-color:  #F1EADC;
+    height: 47px;
+    padding-top: 12px;
+    
+}
+
+.comment{
+    margin-top: 81px;
+}
+
+.cash{
+    font-size: 13px;
+}
+
+.commentInput{
+    margin-top: 47px;
+} 
+
+.commentInput  {
+    width: 350px;
+    height: 100px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
